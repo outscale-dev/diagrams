@@ -13,7 +13,7 @@ DIR_TEMPLATE = "templates"
 
 PROVIDERS = (
     "base", "onprem", "aws", "azure", "gcp", "firebase", "k8s", "alibabacloud", "oci", "programming", "saas", "elastic",
-    "generic", "openstack")
+    "generic", "openstack", "outscale")
 
 #########################
 #  Resource Processing  #
@@ -38,6 +38,7 @@ FILE_PREFIXES = {
     "programming": (),
     "saas": (),
     "elastic": (),
+    "outscale": (),
     "generic": (),
     "openstack": (),
 }
@@ -66,6 +67,8 @@ UPPER_WORDS = {
     "oci": ("oci", "ocid", "oke", "ocir", "ddos", "waf", "bm", "vm", "cdn", "vpn", "dns", "nat", "dms", "api", "id"),
     "elastic": ("apm", "siem", "ece", "eck"),
     "generic": ("vpn", "ios", "xen", "sql"),
+    "outscale": ("osc",),
+    "generic": ("vpn", "ios", "xen"),
     "openstack": ("rpm", "loci", "nfv", "ec2api"),
 }
 
@@ -394,6 +397,9 @@ ALIASES = {
         "elasticsearch": {
             "Logstash": "LogStash",
         }
+    },
+    "outscale": {
+        "Osc": "OSC",
     },
     "generic": {},
     "openstack": {
