@@ -13,16 +13,16 @@ Node classes list of outscale provider.
 ## outscale.network
 
 - **diagrams.outscale.network.ClientVpn**
-- **diagrams.outscale.network.ElasticLoadBalancing**
 - **diagrams.outscale.network.InternetGateway**
-- **diagrams.outscale.network.NatGateway**
+- **diagrams.outscale.network.LoadBalancer**
+- **diagrams.outscale.network.NatService**
+- **diagrams.outscale.network.Net**
 - **diagrams.outscale.network.SiteToSiteVpng**
-- **diagrams.outscale.network.Vpc**
 
 ## outscale.security
 
-- **diagrams.outscale.security.FirewallManager**
-- **diagrams.outscale.security.IdentityAndAccessManagementIam**
+- **diagrams.outscale.security.Firewall**
+- **diagrams.outscale.security.IdentityAndAccessManagement**
 
 ## outscale.storage
 
