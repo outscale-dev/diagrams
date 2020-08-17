@@ -13,7 +13,7 @@ Node classes list of outscale provider.
 ## outscale.network
 
 - **diagrams.outscale.network.ClientVpn**
-- **diagrams.outscale.network.InternetGateway**
+- **diagrams.outscale.network.InternetService**
 - **diagrams.outscale.network.LoadBalancer**
 - **diagrams.outscale.network.NatService**
 - **diagrams.outscale.network.Net**
